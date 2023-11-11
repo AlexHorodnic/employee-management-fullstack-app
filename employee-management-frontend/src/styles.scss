@@ -1,2 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
-@import 'bootstrap/dist/css/bootstrap.css';
+@import "bootstrap/dist/css/bootstrap.css";
+a {
+  text-decoration: none;
+  color: white;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #f0f0f0;
+}
+nav {
+  height: 70px;
+  background-color: #0e96b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  text-align: center;
+}
