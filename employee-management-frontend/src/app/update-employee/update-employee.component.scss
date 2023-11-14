@@ -10,7 +10,14 @@
 form{
   margin-top: 30px;
 }
-input{
+input,
+input:hover,
+input:focus,
+input:active,
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 0s 600000s, color 0s 600000s;
   border: 1px solid #0e96b5;
-
+  background-color: #212529 !important;
+  color: white;
 }
