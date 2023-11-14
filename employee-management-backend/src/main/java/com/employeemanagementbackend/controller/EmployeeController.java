@@ -19,13 +19,6 @@ public class EmployeeController {
     @Autowired
     private EmployeeRepository employeeRepository;
 
-    // Controller for Testing.
-        @GetMapping("/employees/hello-world")
-        public String hello() {
-            return "hello world!";
-        }
-
-
     //get all employees
     @GetMapping("/employees")
     public List<Employee> getAllEmployees(){
