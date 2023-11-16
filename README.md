@@ -1,4 +1,4 @@
-# Employee Management App with Angular, Spring Boot, and SQL
+# Simple Employee Management Fullstack Application
 
 ## Overview
 
@@ -10,12 +10,6 @@ This repository contains the source code for an Employee Management application,
 - **Read:** View a list of all employees and click to view individual employee details.
 - **Update:** Modify existing employee information.
 - **Delete:** Remove employees from the system.
-
-# Angular-SpringBoot-MySQL-JPA Project
-
-## Overview
-
-This project is a full-stack web application using Angular for the frontend, Spring Boot for the backend, and MySQL as the database. Java Persistence API (JPA) is employed for data access. The development environment is set up using IntelliJ IDEA.
 
 ## Technologies Used
 
