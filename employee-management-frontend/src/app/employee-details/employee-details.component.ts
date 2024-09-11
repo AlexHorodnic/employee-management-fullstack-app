@@ -22,7 +22,7 @@ export class EmployeeDetailsComponent implements OnInit{
     this.id = this.route.snapshot.params['id']
     this.employee = new Employee()
     this.employeeService.getEmployeeById(this.id).subscribe(data =>{
-      this,this.employee = data
+      this.employee = data
     })
   }
 }
