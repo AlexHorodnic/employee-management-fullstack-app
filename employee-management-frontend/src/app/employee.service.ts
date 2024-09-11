@@ -13,7 +13,7 @@ export class EmployeeService {
 
   getEmployeesList(): Observable<Employee[]> {
     return this.httpClient.get<Employee[]>(`${this.baseURL}`).pipe(
-      tap(data => console.log('Received data:', data)),
+      tap(data => console.log('Received correct data:', data)),
       catchError(error => {
         console.error('Error fetching employees:', error);
         return throwError(error);
