@@ -1,13 +1,13 @@
 import {Component, OnInit} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {Employee} from "../employee";
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, RouterLink} from "@angular/router";
 import {EmployeeService} from "../employee.service";
 
 @Component({
   selector: 'app-employee-details',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './employee-details.component.html',
   styleUrl: './employee-details.component.scss'
 })

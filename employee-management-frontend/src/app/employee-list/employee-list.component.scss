@@ -7,10 +7,47 @@ table{
   background-color: #0e96b5;
   color: white;
 }
-.btn{
-margin-left: 20px;
-}
+
 .btn-view{
   background-color: #0e96b5;
   color: white;
+}
+
+th{
+  font-size: 22px;
+}
+.list-container{
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Firefox-specific scrollbar styling */
+.table-responsive {
+  scrollbar-color: #0e96b5 #3d3d3d; /* Set thumb and track colors */
+  top: 0;
+}
+.table-responsive::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.table-responsive::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+.table-responsive::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #ffffff;
 }

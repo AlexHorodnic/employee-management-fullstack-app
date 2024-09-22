@@ -4,6 +4,27 @@
 .list-group-item {
   background-color: #212529;
   color: white;
-  border: none;
-  border-bottom: 1px solid #0E96B5;
+  border-color: #0E96B5;
+}
+.go-back-btn{
+  background-color:#0E96B5;
+  border-radius: 5px;
+}
+.btn{
+  color: white;
+  background-color: #0e96b5;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 377px;
+  width: 100%;
+}
+.employee-details-container{
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+  padding-left: 30px;
+  justify-content: center;
+  align-items: center;
 }

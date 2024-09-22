@@ -2,10 +2,11 @@
   color: white;
   background-color: #0e96b5;
   margin-top: 20px;
+  width: 100%;
 }
 .form-group{
   margin-top: 10px;
-
+  width: 350px;
 }
 form{
   margin-top: 30px;
@@ -20,4 +21,12 @@ input:-webkit-autofill:focus {
   border: 1px solid #0e96b5;
   background-color: #212529 !important;
   color: white;
+  width: 350px;
+  margin-bottom: 10px;
+}
+.update-employee-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

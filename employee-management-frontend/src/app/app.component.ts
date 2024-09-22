@@ -12,4 +12,5 @@ import {EmployeeListComponent} from "./employee-list/employee-list.component";
 })
 export class AppComponent {
   title = 'employee-management';
+  currentYear: number = new Date().getFullYear();
 }

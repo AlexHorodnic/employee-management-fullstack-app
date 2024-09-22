@@ -1,24 +1,29 @@
-<h3>Employee List</h3>
-<table class="table table-dark" >
-  <thead>
-    <tr>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Email</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let employee of employees">
-      <td>{{ employee.firstName }}</td>
-      <td>{{ employee.lastName }}</td>
-      <td>{{ employee.emailId }}</td>
-      <td>
-        <button (click)="updateEmployee(employee.id)" class="btn btn-update">Update</button>
-        <button (click)="employeeDetails(employee.id)" class="btn btn-view">View</button>
-        <button (click)="deleteEmployee(employee.id)" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+<h3 class="d-flex justify-content-center">Employee List</h3>
+<div class="list-container">
 
-      </td>
-    </tr>
-  </tbody>
-</table>
+  <div class="table-responsive">
+    <table class="table table-dark" >
+      <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let employee of employees">
+        <td>{{ employee.firstName }}</td>
+        <td>{{ employee.lastName }}</td>
+        <td>{{ employee.emailId }}</td>
+        <td class="d-flex" style=" background: #0e96b5">
+          <button (click)="updateEmployee(employee.id)" class="btn btn-update">Update</button>
+          <button (click)="employeeDetails(employee.id)" class="btn btn-view">View</button>
+          <button (click)="deleteEmployee(employee.id)" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
